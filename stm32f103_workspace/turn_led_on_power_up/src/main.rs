@@ -3,11 +3,11 @@
 use cortex_m_rt::entry;
 use panic_halt as _;
 
-use hall_lib::add;
 #[entry]
 fn main() ->! {
-    let nr = 5;
-    let nr_two = 10;
+    //Unlimited power on LED!!!
+    //Note, pin A3 had LED annode (Drive high for light)
+    //how though?
     loop {}
 }
 

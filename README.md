@@ -31,6 +31,7 @@ This is done because we want to get to know the chip registers, not the whole Ru
 
 ## How to build
 - ([Install Rust](https://www.rust-lang.org/tools/install))
-- add "thumbv7m-none-eabi" target
-- install openOCD 
-- ([install gdb multi arch, and set udev rules] (https://doc.rust-lang.org/stable/embedded-book/intro/install/linux.html?search=))
+- install openOCD
+- ([install gdb multi arch, and set udev rules](https://doc.rust-lang.org/stable/embedded-book/intro/install/linux.html?search=))
+- ([add "thumbv7m-none-eabi" target](https://doc.rust-lang.org/stable/embedded-book/start/qemu.html))
+
