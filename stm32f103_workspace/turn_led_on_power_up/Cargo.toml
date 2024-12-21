@@ -1,0 +1,15 @@
+[package]
+name = "turn_led_on_power_up"
+version = "0.1.0"
+edition = "2021"
+authors.workspace = true
+description.workspace = true
+license-file.workspace = true
+readme.workspace = true
+
+[dependencies]
+cortex-m = { version = "0.7.7", features = ["critical-section-single-core"] }
+cortex-m-rt = "0.7.5"
+panic-halt = "1.0.0"
+
+hall_lib = { path = "../hall_lib"}

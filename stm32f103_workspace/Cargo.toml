@@ -1,0 +1,7 @@
+[workspace]
+package.authors = ["Anne de Rooij", "Mathieu Fennema (NotABadger)"]
+package.description = "A project to try to build our own STM32F103C8T6 HAL for fun and to get to know the hardware"
+package.license-file = "../LICENSE.md"
+package.readme = "../README.md"
+resolver = "2"
+members = [ "hall_lib","turn_led_on_power_up"]
